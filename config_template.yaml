@@ -1,0 +1,16 @@
+# Fill with your own values; experimental values are not distributed.
+confidence_threshold: <float>
+area_threshold_m2: <float>
+adjustment_factors:
+  forest: <float>
+  crop: <float>
+  grassland: <float>
+  shrubland: <float>
+bootstrap:
+  n_resamples: <int>
+  block_size: <float>
+monte_carlo:
+  n_iterations: <int>
+  seed: <int>
+sobol:
+  n_samples: <int>
